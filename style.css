@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -167,7 +167,7 @@ section .title::after{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: rgb(0, 0, 0);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
