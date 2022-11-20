@@ -15,9 +15,59 @@ html{
 ::-webkit-scrollbar {
     width: 10px;
 }
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.header {
+  width: 100%;
+  padding:60px 0;
+  text-align: center;
+  background: crimson;
+  color: white;
+}
+
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px; 
+}
+
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #33cccc;
+}
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+.banner {
+    /* The image used */
+    background-image:url(https://images.app.goo.gl/4mUfCTSDY4LJ8kCL6);
+  }
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
@@ -101,7 +151,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(255, 255, 255);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -193,12 +243,12 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: white;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 25px;
     padding: 12px 36px;
@@ -209,7 +259,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: white;
     background: none;
 }
 
