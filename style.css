@@ -265,7 +265,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "Who I Am";
 }
 .about .about-content .left{
     width: 45%;
@@ -559,6 +559,7 @@ section .title::after{
 .contact .right form .textarea textarea:focus{
     border-color: #b3b3b3;
 }
+
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
