@@ -1,5 +1,5 @@
 /*  import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -15,7 +15,7 @@ html{
 ::-webkit-scrollbar {
     width: 10px;
 }
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,700,900);
 
 h1,
 p,
@@ -86,7 +86,7 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -729,3 +729,5 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
